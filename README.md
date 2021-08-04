@@ -1,2 +1,11 @@
 # tf-module-template
-Template for Terraform modules
+
+[//]: # (BEGIN_TF_DOCS)
+
+[//]: # (END_TF_DOCS)
+
+## Authors
+
+## License
+
+This project is licensed under the [Unlicense](UNLICENSE.md).
