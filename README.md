@@ -1,10 +1,23 @@
-# tf-module-template
+# tf-module-cookiecutter
 
-[//]: # (BEGIN_TF_DOCS)
+[Cookiecutter](https://www.cookiecutter.io/) template to generate a basic root
+Terraform module for AWS.
 
-[//]: # (END_TF_DOCS)
+## Pre-requisites
+
+```sh
+pip install pipx
+```
+
+## Run
+
+```sh
+pipx run cookiecutter gh:andreswebs/tf-module-cookiecutter
+```
 
 ## Authors
+
+**Andre Silva** [andreswebs](https://github.com/andreswebs)
 
 ## License
 
