@@ -1,7 +1,7 @@
 # tf-module-cookiecutter
 
-[Cookiecutter](https://www.cookiecutter.io/) template to generate a basic root
-Terraform module for AWS.
+[Cookiecutter](https://www.cookiecutter.io/) template to generate a basic
+Terraform module to publish to the HashiCorp registry.
 
 ## Pre-requisites
 
