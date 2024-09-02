@@ -14,8 +14,13 @@ currently being supported with security updates.
 
 ## Reporting a Vulnerability
 
-Use this section to tell people how to report a vulnerability.
+Please send an email to [{{ cookiecutter.author_name }}](mailto:{{
+cookiecutter.author_name }}) describing the find.
 
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+Response time is usually less than 48 hours and vulnerabilities will be
+addressed immediately.
+
+Your name will be added to the contributors, unless you wish to remain
+anonymous.
+
+Many thanks!
