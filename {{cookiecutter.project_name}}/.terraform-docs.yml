@@ -1,12 +1,13 @@
 formatter: markdown
 
 content: |-
+{%- raw %}
     {{ .Header }}
 
     ## Usage
 
     Example:
-    
+
     ```hcl
     {{ include "examples/main.tf" }}
     ```
@@ -24,14 +25,15 @@ content: |-
     {{ .Requirements }}
 
     {{ .Resources }}
-
+{%- endraw %}
 
 output:
   file: README.md
   mode: inject
   template: |-
+{%- raw %}
     [//]: # (BEGIN_TF_DOCS)
     {{ .Content }}
 
     [//]: # (END_TF_DOCS)
-
+{%- endraw %}
