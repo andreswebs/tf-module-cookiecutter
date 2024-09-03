@@ -2,20 +2,15 @@
 
 ## Supported Versions
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
-
 | Version | Supported          |
 | ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
+| 0.x.x   | :white_check_mark: |
+| 0.0.0   | :x:                |
 
 ## Reporting a Vulnerability
 
-Please send an email to [{{ cookiecutter.author_name }}](mailto:{{
-cookiecutter.author_name }}) describing the find.
+Please send an email to [{{ cookiecutter.author_email }}](mailto:{{
+cookiecutter.author_email }}) describing the find.
 
 Response time is usually less than 48 hours and vulnerabilities will be
 addressed immediately.
