@@ -5,19 +5,21 @@ Terraform module to publish to the HashiCorp registry.
 
 ## Pre-requisites
 
+Install [cookiecutter](https://cookiecutter.readthedocs.io/en/stable).
+
+I recommend using [uv](https://docs.astral.sh/uv/) to manage the Python environment. Below is one way to get started for [Homebrew](https://brew.sh) users. Follow the [cookiecutter installation instructions](https://cookiecutter.readthedocs.io/en/stable/installation.html) for other methods.
+
 ```sh
-pip install pipx
+brew install uv
 ```
 
-## Run
-
 ```sh
-pipx run cookiecutter gh:andreswebs/tf-module-cookiecutter
+uv tool install cookiecutter
 ```
 
 ## Authors
 
-**Andre Silva** [andreswebs](https://github.com/andreswebs)
+**Andre Silva** - [@andreswebs](https://github.com/andreswebs)
 
 ## License
 
