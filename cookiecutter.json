@@ -4,7 +4,9 @@
   "project_short_description": "",
   "author_name": "",
   "author_handle": "",
+  "author_id": "{{ cookiecutter.author_handle.replace('@', '') }}",
   "author_link": "",
   "author_email": "",
+  "cloud_provider": ["aws", "azurerm", "google", "none"],
   "git_init": true
 }

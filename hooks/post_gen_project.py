@@ -1,6 +1,5 @@
 import os
 import subprocess
-import re
 
 {% if cookiecutter.git_init -%}
 try:
@@ -11,6 +10,3 @@ except subprocess.CalledProcessError as e:
 {%- endif %}
 
 os.rename('.gitignore.tmp', '.gitignore')
-
-author_id = re.sub(r"^@", '', '{{ cookiecutter.author_handle }}')
-project_name = '{{ cookiecutter.project_name }}'
